@@ -46,7 +46,7 @@ body {
 
 .mario {
   position: absolute;
-  top: -40px;
+  top: -90px;
   left: 0px;
   animation-name: drive;
   animation-duration: 3s;
@@ -54,6 +54,16 @@ body {
   animation-iteration-count: infinite;
 }
 
+.luigi {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  animation-name: drive;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
 /*// KEYFRAMES //*/
 @keyframes drive {
   from {
